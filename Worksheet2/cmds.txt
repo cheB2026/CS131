@@ -6,9 +6,9 @@
    3 cd Worksheet\ 2/                                                                   
    4 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv                                            
    5 grep -w "United States" Global\ YouTube\ Statistics.csv                                         
-   6 grep -w "Music" Global\ YouTube\ Statistics.csv                                                                    
-   7 grep -w "Music" Global\ YouTube\ Statistics.csv . youtubeMusic.txt                                                      
-   8 wc -lw youtubeMusic.txt > counts.txt
+   6 grep -w "Music" Global\ YouTube\ Statistics.csv  > youtubeMusic.txt                                                                  
+   7 grep -E '^([^,]+,){4}[^,]*Music' youtubeMusic.txt > youtubeMusicCategory.txt                                                      
+   8 wc -lw youtubeMusicCategory.txt > counts.txt
    9 vi counts.txt
   10 cat counts.txt
   11 history
