@@ -1,0 +1,26 @@
+1. mkdir Assignment1
+
+2. Output: /bin/bash
+   Command: echo $SHELL
+
+3. Output: /mnt/scratch/FA23_CS131_Ashish/bennysp24
+   Command: echo $HOME
+
+4. Output:
+    UID: 1176
+    Groups: 1176 77
+   Command: 
+    id -u bennysp24 , finds UID
+    id -G bennysp24 , finds groups
+
+5. From the temp directory, I can cd into it, use ls, and use ls -l. However, you cannot create create files under it.
+
+8.       total  used   free  shared buff/cache available
+   Mem:  71357 33056  19017    3548      19294     33304
+   Swap:  4119     0   4119
+
+9. Output: Version = "8.6 (Ootpa)"
+   Command: cat /etc/os-release
+
+10. Permissions for the file containing OS version information: lrwxrwxrwx
+   
