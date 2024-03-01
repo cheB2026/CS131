@@ -1,0 +1,49 @@
+
+  Id CommandLine                                                           
+  -- -----------   
+For 1)                                                        
+   1 mkdir Assignment1
+   
+   2 cd Assignment1
+   3 touch Assignment1.txt
+   4 touch cmds.log
+
+For 2)                                         
+   5 echo $SHELL >> Assignment1.txt
+   
+For 3)
+   6 echo $HOME >> Assignment1.txt
+                                                        
+For 4)
+   7 id -u bennysp24
+   8 id -G bennysp24  
+
+For 5)                                                                  
+   4 mkdir myDir                                           
+   5 chmod 577 myDir                                         
+   6 cd myDir
+   7 ls                                                                    
+   8 ls -l                                                      
+   9 touch tempFile.txt 
+
+For 6)
+  10 cd ..
+  11 mkdir myDir2
+  12 mkdir myDir3
+
+For 7)
+  13 cd myDir2
+  14 touch myFile.txt
+  15 mv myFile.txt ../myDir3
+
+For 8)
+  16 free -m
+
+For 9)
+  17 cat /etc/os-release
+
+For 10)
+  18 ls -l /etc/os-release
+                                                       
+
+
