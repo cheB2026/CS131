@@ -1,15 +1,19 @@
 1a.
-In this command we are trying to redirect the output of /etc -type f, which finds files in the /etc directory in one.txt and then create a file called two.txt that contains the standard error.
+In this command we are trying to redirect the output of /etc -type f, which finds 
+files in the /etc directory in one.txt and then create a file called two.txt that contains the standard error.
 
 1b.
-Since there was an error for one.txt, there is nothing shown if you use cat. On the other hand, if you use cat on two.txt it shows the error, which is that /etc is a directory.
+Since there was an error for one.txt, there is nothing shown if you use cat. 
+On the other hand, if you use cat on two.txt it shows the error, which is that /etc is a directory.
 
 2.
 March, 2006 with 15 channels
 July, 2014 with 13 channels
 August, 2014 with 12 channels
 
-The commands I used to find this were: cut -d ',' -f 20-21 and sort -n creationDate.txt | uniq -c. The cut command separated the line by the comma and then displayed the values that were in the 20th and 21st column. The sort command sorted the dates numerically and then uniq command counted the number of occurences for each unique date.
+The commands I used to find this were: cut -d ',' -f 20-21 and sort -n creationDate.txt | uniq -c. 
+The cut command separated the line by the comma and then displayed the values that were in the 20th and 21st column. 
+The sort command sorted the dates numerically and then uniq command counted the number of occurences for each unique date.
 
 3.
     PID TTY          TIME CMD
@@ -45,10 +49,14 @@ There are 2 more bash and sshd processes. The vim ID is 3425019.
 The vim processes is gone since it has been closed, which also changes the ps ID.
 
 5.
-The init process in Linux is the first process started by the kernel when booted up. All processes are initiated by init and its primary function is to execute scripts written in the file /etc/inittab.
+The init process in Linux is the first process started by the kernel when booted up. 
+All processes are initiated by init and its primary function is to execute scripts written in the file /etc/inittab.
 
 ps -p 1
 init ID: 1
 
 6.
-ps aux displays a detailed list of all the running processes on the system. The ps command is used to report a snapshot of the current processes. The aux command is the one that shows all the detailed information about the processes. Additionally, the a shows other users processes and x shows processes that aren't attached to a terminal, such as background processes.
+ps aux displays a detailed list of all the running processes on the system. 
+The ps command is used to report a snapshot of the current processes. 
+The aux command is the one that shows all the detailed information about the processes. 
+Additionally, the a shows other users processes and x shows processes that aren't attached to a terminal, such as background processes.
