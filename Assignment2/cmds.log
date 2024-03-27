@@ -1,0 +1,30 @@
+Id CommandLine                                                           
+  -- -----------   
+1a)                                                        
+  1 /etc -type f > one.txt 2> two.txt
+
+1b)
+  2 cat one.txt
+  3 cat two.txt
+
+2)
+  4 cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv > creationDate.txt
+  5 sort -n creationDate.txt | uniq -c > countChannel.txt
+
+3)
+  6 ps -u bennysp24
+
+4a)
+  7 vi file.txt
+
+4b)
+  8 ps -u bennysp24
+
+4d)
+  9 ps -u bennysp24
+
+5)
+ 10 ps -p 1
+
+6)
+ 11 ps aux

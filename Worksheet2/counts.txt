@@ -1,2 +1,2 @@
-Number of Lines: 238 
-Number of Words: 830
+Number of Lines: 196 
+Number of Words: 654
