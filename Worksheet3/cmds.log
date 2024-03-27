@@ -1,0 +1,25 @@
+ Id CommandLine                                                           
+  -- ----------- 
+Task 1)
+   1 grep -w "United States" Global\ YouTube\ Statistics.csv > usChannels.txt
+   2 cut -d ',' -f 2,15 usChannels.txt > filteredUSChannels.txt
+   3 sort -t, -k2 -n filteredUSChannels.txt | tail -n 1 >> topEarningChannels.txt
+   4 grep -w "United Kingdom" Global\ YouTube\ Statistics.csv > ukChannels.txt
+   5 cut -d ',' -f 2,15 ukChannels.txt > filteredUKChannels.txt
+   6 sort -t, -k2 -n filteredUKChannels.txt | tail -n 1 >> topEarningChannels.txt
+   7 grep -w "India" Global\ YouTube\ Statistics.csv > inChannels.txt
+   8 cut -d ',' -f 2,15 inChannels.txt > filteredINChannels.txt
+   9 sort -t, -k2 -n filteredINChannels.txt | tail -n 1 >> topEarningChannels.txt
+  10 cat topEarningChannels.txt
+
+Task 2)
+  11 awk -F ',' '$5=="Sports"' Global\ YouTube\ Statistics.csv > sportsChannels.txt
+  12 cut -d ',' -f 2-3 sportsChannels.txt > filteredSportsChannels.txt
+  13 sort -t, -k2 -n filteredSportsChannels.txt | tail -n 1 > topSubscribedChannels.txt
+  14 awk -F ',' '$5=="Education"' Global\ YouTube\ Statistics.csv > educationChannels.txt
+  15 cut -d ',' -f 2-3 educationChannels.txt > filteredEducationChannels.txt
+  16 sort -t, -k2 -n filteredEducationChannels.txt | tail -n 1 >> topSubscribedChannels.txt
+  17 awk -F ',' '$5=="Entertainment"' Global\ YouTube\ Statistics.csv > entertainmentChannels.txt
+  18 cut -d ',' -f 2-3 entertainmentChannels.txt > filteredEntertainmentChannels.txt
+  19 sort -t, -k2 -n filteredEntertainmentChannels.txt | tail -n 1 > topSubscribedChannels.txt
+  20 cat topSubscribedChannels.txt
