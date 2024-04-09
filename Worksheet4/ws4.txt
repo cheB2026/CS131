@@ -1,0 +1,33 @@
+Task 1)
+script ws4.txt
+Script started on 2024-04-08 20:48:51-04:00
+
+vi .bashrc
+
+l
+-rw-rw-r-- 1 bennysp24 43806 Apr 8 20:50 ws4.txt
+
+w
+20:50:43 up 115 days,  9:06,  8 users,  load average: 0.00, 0.08, 0.14
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vaikunta pts/1    172.29.96.16     20:40   42.00s  0.05s  0.01s script ws4.txt
+jaydevsp pts/4    172.29.96.15     19:52   34:49   0.07s  0.07s -bash
+bennysp2 pts/10   172.29.96.20     20:44    3.00s  0.04s  0.00s script ws4.txt
+connersp pts/17   172.29.96.18     20:04   11.00s  0.19s  0.19s -bash
+vaikunta pts/27   -                20:44   42.00s  0.01s  0.01s script ws4.txt
+tylermsp pts/28   172.29.96.19     20:41    9:02   0.02s  0.02s -bash
+bennysp2 pts/29   -                20:48    3.00s  0.04s  0.04s w
+chih-kuo pts/32   172.29.96.107    20:20    5:07   0.04s  0.04s -bash
+
+Task 2)
+mkdir Subscribers
+cd Subscribers/
+
+grep -w "United States" Global\ YouTube\ Statistics.csv | cut -d ',' -f 3 > United_States.txt
+grep -w "India" Global\ YouTube\ Statistics.csv | cut -d ',' -f 3 > India.txt
+
+awk '{s+=$1}END{print "United States Average:",s/NR}' RS=" " United_States.txt > ws4_means.txt
+awk '{s+=$1}END{print "India Average:",s/NR}' RS=" " India.txt >> ws4_means.txt
+
+exit
+Script done on 2024-04-08 21:31:51-04:00
