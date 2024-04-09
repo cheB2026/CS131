@@ -1,2 +1,2 @@
 United States Average: 2.83333e+07
-India Average: 245000000s
+India Average: 245000000
