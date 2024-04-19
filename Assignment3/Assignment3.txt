@@ -1,0 +1,194 @@
+Task 1)
+Command(s) used to solve: 
+wc -l last.fake
+grep 'sp24' last.fake > lastsp24.fake
+wc -l lastsp24.fake
+
+Output of Command(s):
+507 last.fake
+Created a new file called lastsp24.fake that contains all the lines with users that have sp24 from last.fake
+478 lastsp24.fake
+
+Task 2)
+Command(s) used to solve:
+grep 'Sun' lastsp24.fake | sort | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"}' | uniq
+
+Output of Command(s):
+The list of people who worked on Sunday are:
+aayushsp24
+akashsp24
+billysp24
+breannasp24
+breannasp24
+briansp24
+chih-kuosp24
+fnusp24
+gavinsp24
+megansp24
+megansp24
+michellesp24
+swansp24
+xuebosp24
+Kudos to these people for putting in the work
+
+Task 3)
+Command(s) used to solve:
+awk '$(NF-3) >= "23:00" && $(NF-3) <= "4:00" {print $1}' lastsp24.fake | sort -u
+
+Output of Command(s):
+ajaysp24
+athishsp24
+brandonsp24
+breannasp24
+daosp24
+davidsp24
+dylansp24
+gavinsp24
+gursimransp24
+jadonsp24
+jimmysp24
+justinsp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+nicolesp24
+sandrasp24
+sangsp24
+sunidhisp24
+vaikuntamsp24
+xiaokesp24
+yelinsp24
+
+Task 4)
+Command(s) used to solve:
+awk '$(NF-3) >= "5:00" || $(NF-3) <= "9:00" {print $1}' lastsp24.fake | sort -u
+
+Output of Command(s):
+aarushisp24
+aayushsp24
+acesp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+atishaysp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+hardiksp24
+jadonsp24
+jaydevsp24
+jessesp24
+jimmysp24
+jonathansp24
+justinsp24
+kevinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+michellesp24
+nhatsp24
+nicholsonsp24
+nicolesp24
+piercesp24
+pratiksp24
+rickysp24
+robertosp24
+robertsp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+swansp24
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+
+Task 5)
+Command(s) used to solve:
+awk '$1 ~ /^t/' passwd.fake
+
+Output of Command(s):
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+tak23fa:x:1020:1020::/mnt/scratch/tak23fa:/bin/bash
+tommy23fa:x:1033:1033::/mnt/scratch/tommy23fa:/bin/bash
+taigario:x:1104:1104::/mnt/scratch/FA23_online/taigario:/bin/bash
+tangnicholas:x:1105:1105::/mnt/scratch/FA23_online/tangnicholas:/bin/bash
+tawdegargi:x:1106:1106::/mnt/scratch/FA23_online/tawdegargi:/bin/bash
+trinhviana:x:1107:1107::/mnt/scratch/FA23_online/trinhviana:/bin/bash
+tienf23:x:1125:1125::/mnt/scratch/FA23_CS131_Ashish/tienf23:/bin/bash
+thif23:x:1129:1129::/mnt/scratch/FA23_CS131_Ashish/thif23:/bin/bash
+tylersp24:x:1170:1170::/mnt/scratch/FA23_CS131_Ashish/tylersp24:/bin/bash
+tanishasp24:x:1182:1182::/mnt/scratch/FA23_CS131_Ashish/tanishasp24:/bin/bash
+taliasp24:x:1188:1188::/mnt/scratch/FA23_CS131_Ashish/taliasp24:/bin/bash
+tylermsp24:x:1233:1233::/mnt/scratch/FA23_CS131_Ashish/tylermsp24:/bin/bash
+
+Task 6)
+Command(s) used to solve:
+awk -F ':' '$1 ~ /^a/ && $3/2 == 0' passwd.fake
+
+Output of Command(s):
+angie23fa:x:1004:1004::/mnt/scratch/angie23fa:/bin/bash
+areebah23fa:x:1016:1016::/mnt/scratch/areebah23fa:/bin/bash
+apple23fa:x:1018:1018::/mnt/scratch/apple23fa:/bin/bash
+ajay23fa:x:1030:1030::/mnt/scratch/ajay23fa:/bin/bash
+alan23fa:x:1032:1032::/mnt/scratch/alan23fa:/bin/bash
+amreenf23:x:1150:1150::/mnt/scratch/FA23_CS131_Ashish/amreenf23:/bin/bash
+acesp24:x:1174:1174::/mnt/scratch/FA23_CS131_Ashish/acesp24:/bin/bash
+akashsp24:x:1190:1190::/mnt/scratch/FA23_CS131_Ashish/akashsp24:/bin/bash
+ayesp24:x:1200:1200::/mnt/scratch/SP24_CS131_Jyotika/ayesp24:/bin/bash
+alexsp24:x:1202:1202::/mnt/scratch/SP24_CS131_Jyotika/alexsp24:/bin/bash
+aayushsp24:x:1204:1204::/mnt/scratch/SP24_CS131_Jyotika/aayushsp24:/bin/bash
+ajaysp24:x:1230:1230::/mnt/scratch/SP24_CS131_Jyotika/ajaysp24:/bin/bash
+ashish:x:1240:1240::/mnt/scratch/FA23_CS131_Ashish/ashish:/bin/bash
+amansp24:x:1242:1242::/mnt/scratch/SP24_CS131_Jyotika/amansp24:/bin/bash
+
+Task 7)
+Command(s) used to solve:
+sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+
+Output of Command(s):
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
+
