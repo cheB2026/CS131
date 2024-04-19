@@ -1,0 +1,24 @@
+
+Task 1)
+last
+grep 'sp24' last.fake > lastsp24.fake
+wc -l last.fake
+wc -l lastsp24.fake
+
+Task2)
+grep 'Sun' lastsp24.fake | sort | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $1} END {print "Kudos to these people for putting in the work"}' | uniq
+
+Task 3)
+awk '$(NF-3) >= "23:00" && $(NF-3) <= "4:00" {print $1}' lastsp24.fake | sort -u
+
+Task 4)
+awk '$(NF-3) >= "5:00" || $(NF-3) <= "9:00" {print $1}' lastsp24.fake | sort -u
+
+Task 5)
+awk '$1 ~ /^t/' passwd.fake
+
+Task 6)
+awk -F ':' '$1 ~ /^a/ && $3/2 == 0' passwd.fake
+
+Task 7)
+sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
