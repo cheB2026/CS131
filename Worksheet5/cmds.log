@@ -1,0 +1,14 @@
+
+  Id CommandLine
+  -- -----------
+   1 mkdir Worksheet 5
+   2 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   3 grep -w "United States" Global\ YouTube\ Statistics.csv > usChannels.txt
+   4 touch ws5.sh
+   5 chmod u+rx ws5.sh
+   6 vi ws5.sh
+   7 ./ws5.sh
+   8 wc -l ./UnitedStates/Music.txt > ws5.txt
+   9 wc -l ./UnitedStates/Entertainment.txt > ws5.txt
+  10 wc -l ./UnitedStates/Gaming.txt > ws5.txt
+  11 wc -l ./UnitedStates/Comedy.txt > ws5.txt
