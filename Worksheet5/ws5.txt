@@ -1,0 +1,4 @@
+144 ./UnitedStates/Music.txt
+65 ./UnitedStates/Entertainment.txt
+26 ./UnitedStates/Gaming.txt
+22 ./UnitedStates/Comedy.txt
