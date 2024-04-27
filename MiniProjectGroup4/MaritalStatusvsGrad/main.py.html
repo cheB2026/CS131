@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">matplotlib</span><span class="s2">.</span><span class="s1">pyplot </span><span class="s0">as </span><span class="s1">plt</span>
+<span class="s0">import </span><span class="s1">pandas </span><span class="s0">as </span><span class="s1">pd</span>
+
+<span class="s3"># csv file into df</span>
+<span class="s1">data </span><span class="s2">= </span><span class="s1">pd</span><span class="s2">.</span><span class="s1">read_csv</span><span class="s2">(</span><span class="s4">'outcomes.csv'</span><span class="s2">)</span>
+
+<span class="s1">categories </span><span class="s2">= </span><span class="s1">data</span><span class="s2">[</span><span class="s4">'Outcome'</span><span class="s2">]</span>
+<span class="s1">single_counts </span><span class="s2">= </span><span class="s1">data</span><span class="s2">[</span><span class="s4">'Single'</span><span class="s2">]</span>
+<span class="s1">married_counts </span><span class="s2">= </span><span class="s1">data</span><span class="s2">[</span><span class="s4">'Married'</span><span class="s2">]</span>
+
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">figure</span><span class="s2">(</span><span class="s1">figsize</span><span class="s2">=(</span><span class="s5">10</span><span class="s2">, </span><span class="s5">6</span><span class="s2">))</span>
+
+<span class="s3">#bar graph for single</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">bar</span><span class="s2">(</span><span class="s1">categories</span><span class="s2">, </span><span class="s1">single_counts</span><span class="s2">, </span><span class="s1">color</span><span class="s2">=</span><span class="s4">'b'</span><span class="s2">, </span><span class="s1">label</span><span class="s2">=</span><span class="s4">'Single'</span><span class="s2">)</span>
+
+<span class="s3"># bar graph for married</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">bar</span><span class="s2">(</span><span class="s1">categories</span><span class="s2">, </span><span class="s1">married_counts</span><span class="s2">, </span><span class="s1">bottom</span><span class="s2">=</span><span class="s1">single_counts</span><span class="s2">, </span><span class="s1">color</span><span class="s2">=</span><span class="s4">'r'</span><span class="s2">, </span><span class="s1">label</span><span class="s2">=</span><span class="s4">'Married'</span><span class="s2">)</span>
+
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">title</span><span class="s2">(</span><span class="s4">'Educational Outcomes by Marital Status'</span><span class="s2">)</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">xlabel</span><span class="s2">(</span><span class="s4">'Outcome'</span><span class="s2">)</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">ylabel</span><span class="s2">(</span><span class="s4">'Count'</span><span class="s2">)</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">legend</span><span class="s2">()</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">grid</span><span class="s2">(</span><span class="s0">True</span><span class="s2">)</span>
+<span class="s1">plt</span><span class="s2">.</span><span class="s1">show</span><span class="s2">()</span>
+</pre>
+</body>
+</html>
