@@ -1,0 +1,24 @@
+Number of Students with Scholarships: 1099
+Number of International Students: 110
+
+
+International Students with Scholarships
+Number of International Students with Scholarships: 19
+Owes Money: 3
+Tution is up to Date: 1
+
+Distribution of Target
+      3 Dropout
+      1 Enrolled
+     15 Graduate
+
+
+International Students with no Scholarships
+Number of International Students with no Scholarships: 91
+Owes Money: 26
+Tuition is up to Date: 69
+
+Distribution of Target
+     29 Dropout
+     23 Enrolled
+     39 Graduate

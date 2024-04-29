@@ -1,0 +1,14 @@
+cut -d ',' -f 8,16,17,19,21,37 data.csv > filteredData.txt
+awk -F ',' '$4=="1"' filteredData.txt | wc -l > observations.txt
+awk -F ',' '$5=="1"' filteredData.txt | wc -l >> observations.txt
+awk -F ',' '$5=="1"' filteredData.txt > international.txt
+awk -F ',' '$4=="1"' international.txt > international_scholarship.txt
+wc -l international_scholarship.txt >> observations.txt
+awk -F ',' '$2=="1"' international_scholarship.txt | wc -l >> observations.txt
+awk -F ',' '$3=="1"' international_scholarship.txt | wc -l >> observations.txt
+cut -d ',' -f 6 international_scholarship.txt | sort | uniq -c >> observations.txt
+awk -F ',' '$4=="0"' international.txt > international_no_scholarship.txt
+awk -F ',' '$2=="1"' international_no_scholarship.txt | wc -l >> observations.txt
+awk -F ',' '$3=="1"' international_no_scholarship.txt | wc -l >> observations.txt
+wc -l international_no_scholarship.txt >> observations.txt
+vi observations.txt
