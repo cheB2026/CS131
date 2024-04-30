@@ -1,0 +1,4 @@
+Outcome,Single,Married
+Dropped Out,1184,179
+Enrolled,720,52
+Graduated,2015,148
