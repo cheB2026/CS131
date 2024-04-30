@@ -1,0 +1,87 @@
+File size
+-------------
+Lines: 4425
+Words: 4499
+Bytes: 533230
+Fields: 37
+
+Date Created
+------------
+12/12/2021
+
+Creators
+-----------------------------------
+Valentim Realinho
+vrealinho@ipportalegre.pt
+Instituto Politécnico de Portalegre
+
+Mónica Vieira Martins
+mvmartins@ipportalegre.pt
+Instituto Politécnico de Portalegre
+
+Jorge Machado
+jmachado@ipportalegre.pt
+Instituto Politécnico de Portalegre
+
+Luís Baptista
+lmtb@ipportalegre.pt
+Instituto Politécnico de Portalegre
+
+Purpose
+-------
+The dataset was created in a project that aims to contribute to the reduction of academic dropout and failure in higher education, by using machine learning techniques to identify students at risk at an early stage of their academic path, so that strategies to support them can be put into place. 
+The dataset includes information known at the time of student enrollment – academic path, demographics, and social-economic factors. 
+The problem is formulated as a three category classification task (dropout, enrolled, and graduate) at the end of the normal duration of the course.
+
+Columns                                             Data types      Data Characteristics                 Nulls
+--------------------------------------------------------------------------------------------------------------
+Marital Status                                      int             Range: 1-6                             0
+Application mode                                    int             Range: 1-57                            0
+Application order                                   int             Range: 0-9                             0 
+Course                                              int             Range: 33-9991                         0
+Daytime/evening attendance\t                        int             Range: 0-1                             0
+Previous qualification                              int             Range: 1-43                            0
+Previous qualification (grade)                      float           Range: 95.0-190.0                      0
+Nacionality                                         int             Range: 1-109                           0
+Mother's qualification                              int             Range: 1-44                            0
+Father's qualification                              int             Range: 1-44                            0
+Mother's occupation                                 int             Range: 0-194                           0
+Father's occupation                                 int             Range: 0-195                           0
+Admission grade                                     float           Range: 95.0-190.0                      0
+Displaced                                           int             Range: 0-1                             0
+Educational special needs                           int             Range: 0-1                             0
+Debtor                                              int             Range: 0-1                             0
+Tuition fees up to date                             int             Range: 0-1                             0
+Gender                                              int             Range: 0-1                             0
+Scholarship holder                                  int             Range: 0-1                             0
+Age at enrollment                                   int             Range: 17-70                           0
+International                                       int             Range: 0-1                             0
+Curricular units 1st sem (credited)                 int             Range: 0-20                            0
+Curricular units 1st sem (enrolled)                 int             Range: 0-26                            0  
+Curricular units 1st sem (evaluations)              int             Range: 0-45                            0
+Curricular units 1st sem (approved)                 int             Range: 0-26                            0
+Curricular units 1st sem (grade)                    float           Range: 0.0-18.875                      0
+Curricular units 1st sem (without evaluations)      int             Range: 0-12                            0
+Curricular units 2nd sem (credited)                 int             Range: 0-19                            0
+Curricular units 2nd sem (enrolled)                 int             Range: 0-23              		   0
+Curricular units 2nd sem (evaluations)              int             Range: 0-33                            0
+Curricular units 2nd sem (approved)                 int             Range: 0-20                            0
+Curricular units 2nd sem (grade)                    float           Range: 0-18.57                         0
+Curricular units 2nd sem (without evaluations)      int             Range: 0-12                            0
+Unemployment rate                                   float           Range: 7.6-16.2                        0
+Inflation rate                                      float           Range: -0.8-3.7                        0
+GDP                                                 float           Range: -4.06-3.51                      0
+Target                                              string          Enum: Graduate | Dropout | Enrolled    0
+
+Introductory Paper
+------------------
+Early prediction of student's performance in higher education: a case study by Mónica V. Martins, Daniel Tolledo, Jorge Machado, Luís M. T. Baptista, and Valentim Realinho. 2021 Published in Trends and Applications in Information Systems and Technologies.
+
+Citation
+--------
+M.V.Martins, D. Tolledo, J. Machado, L. M.T. Baptista, V.Realinho. (2021) "Early prediction of student’s performance in higher education: a case study" Trends and Applications in Information Systems and Technologies, vol.1, in Advances in Intelligent Systems and Computing series. Springer. DOI: 10.1007/978-3-030-72657-7_16
+
+License
+-------
+This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.

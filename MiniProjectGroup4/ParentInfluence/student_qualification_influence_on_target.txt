@@ -1,0 +1,43 @@
+Student qualification and Target group by
+1941 1,Graduate
+1078 1,Dropout
+ 698 1,Enrolled
+ 104 19,Dropout
+  95 39,Graduate
+  75 3,Dropout
+  69 39,Dropout
+  55 39,Enrolled
+  47 3,Graduate
+  45 19,Graduate
+  26 12,Dropout
+  22 42,Graduate
+  20 40,Graduate
+  16 2,Dropout
+  14 40,Dropout
+  13 19,Enrolled
+  13 12,Graduate
+  11 9,Dropout
+   8 6,Graduate
+   8 42,Enrolled
+   7 6,Dropout
+   6 42,Dropout
+   6 40,Enrolled
+   6 2,Graduate
+   6 12,Enrolled
+   4 43,Graduate
+   4 4,Dropout
+   4 3,Enrolled
+   3 4,Graduate
+   3 38,Graduate
+   3 38,Dropout
+   3 10,Dropout
+   2 43,Dropout
+   1 6,Enrolled
+   1 5,Dropout
+   1 4,Enrolled
+   1 38,Enrolled
+   1 2,Enrolled
+   1 15,Graduate
+   1 15,Dropout
+   1 14,Dropout
+   1 10,Graduate
