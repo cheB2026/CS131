@@ -1,0 +1,10 @@
+495 mkdir CS131
+497 cd desktop
+498 cd CS131
+499 cat student_grad.csv
+500 cut -d ',' -f1,15 student_dropout.csv | sort | uniq -c
+501 echo "Outcome,Single,Married" > outcomes.csv
+502 echo "Dropped Out,1184,179" >> outcomes.csv
+503 echo "Enrolled,720,52" >> outcomes.csv
+504 echo "Graduated,2015,148" >> outcomes.csv
+505 history > cmds.log
