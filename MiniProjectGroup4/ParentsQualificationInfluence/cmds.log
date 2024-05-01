@@ -1,0 +1,146 @@
+  860  awk -F ',' '$1!="" && $2!="" && $3!="" && $4!=""' random.csv
+  861  awk -F ',' '$1!="" && $2!="" && $3!="" && $4!=""' mother_previous_qual_groupby_result.csv
+  862  clear
+  863  cat random.csv
+  864  cat mother_previous_qual_groupby_result.csv | head -5
+  865  vim mother_previous_qual_groupby_result.csv
+  866  exit
+  867  cat data.csv | tee -a f.txt | wc -l
+  868  cat f.txt
+  869  clear
+  870  rm f.txt
+  871  ls
+  872  bash value_to_qualification_mapping.sh
+  873  vim data.csv
+  874  vim new_data.csv
+  875  ls
+  876  bash mother_previous_qual_groupby.sh new_data.csv mother_previous_qual_groupby_result.txt
+  877  vim mother_previous_qual_groupby_result.txt
+  878  bash mother_previous_qual_groupby.sh new_data.csv mother_previous_qual_groupby_result.txt
+  879  vim mother_previous_qual_groupby_result.txt
+  880  bash mother_previous_qual_groupby.sh new_data.csv mother_previous_qual_groupby_result.csv
+  881  vim mother_previous_qual_groupby_result.txt
+  882  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  883  vim mother_previous_qual_groupby_result.csv
+  884  clear
+  885  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  886  ls
+  887  vim mother_previous_qual_groupby_result.csv
+  888  clear
+  889  vim mother_previous_qual_groupby_result.csv
+  890  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  891  vim mother_previous_qual_groupby_result.csv
+  892  clear
+  893  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  894  clear
+  895  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  896  clear
+  897  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  898  clear
+  899  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  900  clear
+  901  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  902  vim mother_previous_qual_groupby.sh
+  903  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  904  clear
+  905  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv
+  906  vim mother_previous_qual_groupby_result.csv
+  907  sed -n 1p mother_previous_qual_groupby.sh
+  908  sed -n 1p mother_previous_qual_groupby_result.csv
+  909  clear
+  910  sed -n 1p mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  911  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  912  vim reformatted_mother_previous_qual_groupby_result.csv
+  913  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  914  vim reformatted_mother_previous_qual_groupby_result.csv
+  915  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  916  vim reformatted_mother_previous_qual_groupby_result.csv
+  917  vim mother_previous_qual_groupby_result.csv
+  918  clear
+  919  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  920  vim mother_previous_qual_groupby.sh
+  921  vim mother_previous_qual_groupby_result.csv
+  922  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  923  vim mother_previous_qual_groupby.sh
+  924  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  925  vim mother_previous_qual_groupby_result.csv
+  926  clear
+  927  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  928  ls
+  929  vim reformatted_mother_previous_qual_groupby_result.csv
+  930  bash reformat_result_for_plot.sh mother_previous_qual_groupby_result.csv reformatted_mother_previous_qual_groupby_result.csv
+  931  vim reformatted_mother_previous_qual_groupby_result.csv
+  932  exit
+  933  ls
+  934  vim father_previous_qual_groupby.sh new_data.csv father_previous_qual_groupby_result.csv
+  935  ls -a
+  936  exit
+  937  ls -a
+  938  bash father_previous_qual_groupby.sh father_previous_qual_groupby_result.csv
+  939  bash father_previous_qual_groupby.sh new_data.csv father_previous_qual_groupby_result.csv
+  940  vim father_previous_qual_groupby_result.csv
+  941  ls
+  942  bash reformat_result_for_plot.sh father_previous_qual_groupby_result.csv reformatted_father_previous_qual_groupby_result.csv
+  943  vim reformatted_father_previous_qual_groupby_result.csv
+  944  exit
+  945  vim reformat_result_for_plot.sh
+  946  vim mother_previous_qual_groupby_result.csv
+  947  vim reformat_result_for_plot.sh
+  948  vim mother_previous_qual_groupby_result.csv
+  949  clear
+  950  vim reformatted_mother_previous_qual_groupby_result.csv
+  951  vim reformat_result_for_plot.sh
+  952  ls
+  953  vim mother_previous_qual_groupby_result.csv
+  954  ls
+  955  vim reformatted_mother_previous_qual_groupby_result.csv
+  956  cp mother_previous_qual_groupby.sh father_previous_qual_groupby.sh
+  957  vim father_previous_qual_groupby.sh
+  958  awk -F ',' 'NR>1 {print $2}' father_previous_qual_groupby_result.csv | sort | uniq
+  959  vim father_previous_qual_groupby.sh
+  960  ls
+  961  ls *.sh
+  962  vim mother_previous_qual_groupby.sh
+  963  vim value_to_qualification_mapping.sh
+  964  clear
+  965  ls
+  966  ls *.csv
+  967  vim father_previous_qual_groupby_result.csv
+  968  vim reformatted_father_previous_qual_groupby_result.csv
+  969  ls *.csv
+  970  ls *.sh
+  971  ls
+  972  diff reformatted_mother_previous_qual_groupby_result.csv reformatted_father_previous_qual_groupby_result.csv
+  973  vim father_previous_qual_groupby.sh
+  974  exit
+  975  vim new_data.csv
+  976  bash father_previous_qual_groupby new_data.csv father_previous_qual_groupby_result.csv
+  977  bash father_previous_qual_groupby.sh new_data.csv father_previous_qual_groupby_result.csv
+  978  vim father_previous_qual_groupby_result.csv
+  979  bash reformat_result_for_plot.sh father_previous_qual_groupby_result.csv reformatted_father_previous_qual_groupby_result.csv
+  980  vim reformatted_father_previous_qual_groupby_result.csv
+  981  vim father_previous_qual_groupby_result.csv
+  982  vim reformatted_father_previous_qual_groupby_result.csv
+  983  history | grep awk
+  984  clear
+  985  awk -F ',' 'NR>1 {print $2}' father_previous_qual_groupby_result.csv | sort | uniq
+  986  awk -F ',' 'NR>1 {print $2}' reformatted_father_previous_qual_groupby_result.csv | sort | uniq
+  987  ls
+  988  exit
+  989  ls
+  990  mkdir project
+  991  cd project/
+  992  ls
+  993  cd ~
+  994  ls
+  995  cd project/
+  996  ls
+  997  tmux
+  998  clear
+  999  exit
+ 1000  ls
+ 1001  tmux
+ 1002  cd project/
+ 1003  history
+ 1004  ls
+ 1005  history > cmds.log

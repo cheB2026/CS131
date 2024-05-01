@@ -1,0 +1,76 @@
+mother qualification,previous qualification,target,count
+Secondary Education - 12th Year of Schooling,Secondary Education - 12th Year of Schooling,Graduate^M,499
+Secondary Education - 12th Year of Schooling,Secondary Education - 12th Year of Schooling,Dropout^M,238
+Secondary Education - 12th Year of Schooling,Secondary Education - 12th Year of Schooling,Enrolled^M,185
+Secondary Education - 12th Year of Schooling,Technological specialization course,Graduate^M,26
+Secondary Education - 12th Year of Schooling,Technological specialization course,Dropout^M,26
+Secondary Education - 12th Year of Schooling,Technological specialization course,Enrolled^M,13
+Secondary Education - 12th Year of Schooling,Higher Education - Degree,Dropout^M,13
+Secondary Education - 12th Year of Schooling,Higher Education - Degree,Graduate^M,7
+Secondary Education - 12th Year of Schooling,Higher Education - Degree,Enrolled^M,0
+Secondary Education - 12th Year of Schooling,Professional higher technical course,Graduate^M,15
+Secondary Education - 12th Year of Schooling,Professional higher technical course,Enrolled^M,2
+Secondary Education - 12th Year of Schooling,Professional higher technical course,Dropout^M,2
+Secondary Education - 12th Year of Schooling,Basic Education 3rd Cycle (9th/10th/11th Year),Dropout^M,10
+Secondary Education - 12th Year of Schooling,Basic Education 3rd Cycle (9th/10th/11th Year),Graduate^M,2
+Secondary Education - 12th Year of Schooling,Basic Education 3rd Cycle (9th/10th/11th Year),Enrolled^M,2
+Basic education 1st cycle (4th/5th year),Secondary Education - 12th Year of Schooling,Graduate^M,367
+Basic education 1st cycle (4th/5th year),Secondary Education - 12th Year of Schooling,Dropout^M,278
+Basic education 1st cycle (4th/5th year),Secondary Education - 12th Year of Schooling,Enrolled^M,142
+Basic education 1st cycle (4th/5th year),Basic Education 3rd Cycle (9th/10th/11th Year),Dropout^M,44
+Basic education 1st cycle (4th/5th year),Basic Education 3rd Cycle (9th/10th/11th Year),Graduate^M,26
+Basic education 1st cycle (4th/5th year),Basic Education 3rd Cycle (9th/10th/11th Year),Enrolled^M,6
+Basic education 1st cycle (4th/5th year),Technological specialization course,Graduate^M,18
+Basic education 1st cycle (4th/5th year),Technological specialization course,Dropout^M,14
+Basic education 1st cycle (4th/5th year),Technological specialization course,Enrolled^M,10
+Basic education 1st cycle (4th/5th year),Higher Education - Degree,Graduate^M,20
+Basic education 1st cycle (4th/5th year),Higher Education - Degree,Dropout^M,19
+Basic education 1st cycle (4th/5th year),Higher Education - Degree,Enrolled^M,3
+Basic education 1st cycle (4th/5th year),Other,Dropout^M,14
+Basic education 1st cycle (4th/5th year),Other,Graduate^M,8
+Basic education 1st cycle (4th/5th year),Other,Enrolled^M,4
+Basic Education 3rd Cycle (9th/10th/11th Year),Secondary Education - 12th Year of Schooling,Graduate^M,465
+Basic Education 3rd Cycle (9th/10th/11th Year),Secondary Education - 12th Year of Schooling,Dropout^M,211
+Basic Education 3rd Cycle (9th/10th/11th Year),Secondary Education - 12th Year of Schooling,Enrolled^M,158
+Basic Education 3rd Cycle (9th/10th/11th Year),Technological specialization course,Graduate^M,19
+Basic Education 3rd Cycle (9th/10th/11th Year),Technological specialization course,Dropout^M,11
+Basic Education 3rd Cycle (9th/10th/11th Year),Technological specialization course,Enrolled^M,8
+Basic Education 3rd Cycle (9th/10th/11th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Dropout^M,21
+Basic Education 3rd Cycle (9th/10th/11th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Graduate^M,7
+Basic Education 3rd Cycle (9th/10th/11th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Enrolled^M,4
+Basic Education 3rd Cycle (9th/10th/11th Year),Higher Education - Degree,Dropout^M,14
+Basic Education 3rd Cycle (9th/10th/11th Year),Higher Education - Degree,Graduate^M,7
+Basic Education 3rd Cycle (9th/10th/11th Year),Higher Education - Degree,Enrolled^M,1
+Basic Education 3rd Cycle (9th/10th/11th Year),Professional higher technical course,Enrolled^M,4
+Basic Education 3rd Cycle (9th/10th/11th Year),Professional higher technical course,Graduate^M,3
+Basic Education 3rd Cycle (9th/10th/11th Year),Professional higher technical course,Dropout^M,3
+Basic Education 2nd Cycle (6th/7th/8th Year),Secondary Education - 12th Year of Schooling,Graduate^M,308
+Basic Education 2nd Cycle (6th/7th/8th Year),Secondary Education - 12th Year of Schooling,Dropout^M,113
+Basic Education 2nd Cycle (6th/7th/8th Year),Secondary Education - 12th Year of Schooling,Enrolled^M,80
+Basic Education 2nd Cycle (6th/7th/8th Year),Technological specialization course,Graduate^M,14
+Basic Education 2nd Cycle (6th/7th/8th Year),Technological specialization course,Enrolled^M,8
+Basic Education 2nd Cycle (6th/7th/8th Year),Technological specialization course,Dropout^M,4
+Basic Education 2nd Cycle (6th/7th/8th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Dropout^M,14
+Basic Education 2nd Cycle (6th/7th/8th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Graduate^M,5
+Basic Education 2nd Cycle (6th/7th/8th Year),Basic Education 3rd Cycle (9th/10th/11th Year),Enrolled^M,1
+Basic Education 2nd Cycle (6th/7th/8th Year),Higher Education - Degree,Graduate^M,2
+Basic Education 2nd Cycle (6th/7th/8th Year),Higher Education - Degree,Dropout^M,2
+Basic Education 2nd Cycle (6th/7th/8th Year),Higher Education - Degree,Enrolled^M,0
+Basic Education 2nd Cycle (6th/7th/8th Year),Professional higher technical course,Graduate^M,0
+Basic Education 2nd Cycle (6th/7th/8th Year),Professional higher technical course,Enrolled^M,1
+Basic Education 2nd Cycle (6th/7th/8th Year),Professional higher technical course,Dropout^M,1
+Higher Education - Degree,Secondary Education - 12th Year of Schooling,Graduate^M,173
+Higher Education - Degree,Secondary Education - 12th Year of Schooling,Dropout^M,104
+Higher Education - Degree,Secondary Education - 12th Year of Schooling,Enrolled^M,93
+Higher Education - Degree,Technological specialization course,Graduate^M,10
+Higher Education - Degree,Technological specialization course,Dropout^M,10
+Higher Education - Degree,Technological specialization course,Enrolled^M,7
+Higher Education - Degree,Higher Education - Degree,Dropout^M,14
+Higher Education - Degree,Higher Education - Degree,Graduate^M,7
+Higher Education - Degree,Higher Education - Degree,Enrolled^M,0
+Higher Education - Degree,Basic Education 3rd Cycle (9th/10th/11th Year),Dropout^M,4
+Higher Education - Degree,Basic Education 3rd Cycle (9th/10th/11th Year),Enrolled^M,0
+Higher Education - Degree,Basic Education 3rd Cycle (9th/10th/11th Year),Graduate^M,1
+Higher Education - Degree,Higher Education - Master's,Graduate^M,2
+Higher Education - Degree,Higher Education - Master's,Enrolled^M,0
+Higher Education - Degree,Higher Education - Master's,Dropout^M,2
