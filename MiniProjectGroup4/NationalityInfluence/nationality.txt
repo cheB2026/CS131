@@ -1,0 +1,21 @@
+Portuguese: 4377
+German: 54
+Spanish: 29
+Italian: 3
+Dutch: 1
+English: 1
+Lithuanian: 1
+Angolan: 2
+Cape Verdean: 13
+Guinean: 5
+Mozambican: 2
+Santomean: 14
+Turkish: 1
+Brazilian: 38
+Romanian: 2
+Moldova: 3
+Mexican: 2
+Ukrianian: 3
+Russian: 2
+Cuban: 1
+Colombian: 1

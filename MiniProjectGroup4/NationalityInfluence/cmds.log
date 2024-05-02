@@ -1,0 +1,23 @@
+ 1027  vi nationality.txt
+ 1028  awk -F',' '{print $8}' data.csv | grep -o '25' | wc -l
+ 1029  vi nationality.txt
+ 1030  awk -F',' '{print $8}' data.csv | grep -o '26' | wc -l
+ 1031  vi nationality.txt
+ 1032  awk -F',' '{print $8}' data.csv | grep -o '32' | wc -l
+ 1033  vi nationality.txt
+ 1034  awk -F',' '{print $8}' data.csv | grep -o '41' | wc -l
+ 1035  vi nationality.txt
+ 1036  awk -F',' '{print $8}' data.csv | grep -o '62' | wc -l
+ 1037  vi nationality.txt
+ 1038  awk -F',' '{print $8}' data.csv | grep -o '100' | wc -l
+ 1039  vi nationality.txt
+ 1040  awk -F',' '{print $8}' data.csv | grep -o '101' | wc -l
+ 1041  vi nationality.txt
+ 1042  awk -F',' '{print $8}' data.csv | grep -o '103' | wc -l
+ 1043  vi nationality.txt
+ 1044  awk -F',' '{print $8}' data.csv | grep -o '105' | wc -l
+ 1045  vi nationality.txt
+ 1046  awk -F',' '{print $8}' data.csv | grep -o '108' | wc -l
+ 1047  awk -F',' '{print $8}' data.csv | grep -o '109' | wc -l
+ 1048  vi nationality.txt
+ 1049  history>cmds.log
